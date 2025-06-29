@@ -5,7 +5,7 @@
   "ApiPrefix": "",
   "KeyFile": "",
   "CertFile": "",
-  "DatabaseAddress": "",
+  "DatabaseAddress": "tcp(127.0.0.1:3306)",
   "Database": "openaccounting",
   "User": "openaccounting",
   "Password": "openaccounting",
