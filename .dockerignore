@@ -1,0 +1,13 @@
+Dockerfile
+.dockerignore
+node_modules
+npm-debug.log
+README.md
+LICENSE
+runTests
+schema.sql
+indexes.sql
+.next
+.git
+.gitingore
+.gitattributes
