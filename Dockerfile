@@ -10,6 +10,5 @@ RUN cd oa-server && go build core/server.go
 FROM alpine
 
 COPY --from=build go/oa-server/server /usr/bin/oa-server
-COPY config.json .
 
 ENTRYPOINT ["/usr/bin/oa-server"]
